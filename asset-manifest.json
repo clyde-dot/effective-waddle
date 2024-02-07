@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/effective-waddle/static/css/main.c606cdb9.css",
+    "main.js": "/effective-waddle/static/js/main.fb597e73.js",
+    "static/media/banner.jpg": "/effective-waddle/static/media/banner.424ea976d13ccb135dc4.jpg",
+    "static/media/logo1.svg": "/effective-waddle/static/media/logo1.d914b0431e18d2df4f7766ca1834b174.svg",
+    "index.html": "/effective-waddle/index.html",
+    "main.c606cdb9.css.map": "/effective-waddle/static/css/main.c606cdb9.css.map",
+    "main.fb597e73.js.map": "/effective-waddle/static/js/main.fb597e73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c606cdb9.css",
+    "static/js/main.fb597e73.js"
+  ]
+}
