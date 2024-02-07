@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+    font-family: Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+    --duration: 0.2s;
+    --c-blue: #473bf0;
+    --c-blue-ef: #473bf0c7;
+    --c-white: #ffffff;
+    --c-black: #161c2d;
+    --c-black-ef: #272727a9;
+    --ice-blue: #00a6fb;
+}
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+.main-container {
+    margin-inline: 162px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80svh;
+}
+.banner-title {
+    width: 600px;
+}
+
+.banner-image {
+    border-radius: 50px;
+    width: 700px;
+    height: auto;
+}
+.before-title {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1.3px;
+}
+
+.link {
+    text-decoration: none;
+    cursor: pointer;
+    transition: var(--duration);
+}
+.link:hover {
+    color: var(--ice-blue);
+}
+
+.title {
+    font-weight: 600;
+    font-size: 62px;
+    line-height: 0.9;
+    letter-spacing: 1.4px;
+    margin-block: 35px;
+}
+.sub-title {
+    line-height: 1.75;
+    letter-spacing: 1.1px;
+    font-size: 16px;
+    width: 500px;
+    margin-bottom: 35px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 13px 25px;
+    border-radius: 9px;
+    font-weight: 500;
+    background: var(--c-blue);
+    color: var(--c-white);
+    transition: var(--duration);
+    text-align: center;
+}
+.btn:active {
+    transform: scale(0.98);
+}
+.btn:hover {
+    background: var(--c-blue-ef);
+}
